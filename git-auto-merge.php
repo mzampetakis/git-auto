@@ -10,7 +10,7 @@ foreach ($all_branches as $k => $branch) {
 // Look for user submitted variables
 // 1 = branches to merge commit and merge from
 // 2 = branch to use to merge to
-// 3 = commit mesasge (oprional)
+// 3 = commit mesasge (optional)
 $local   = (isset($argv[1]) && ! empty($argv[1])) ? trim($argv[1]) : '';
 $master  = (isset($argv[2]) && ! empty($argv[2])) ? trim($argv[2]) : 'master';
 $message = (isset($argv[3]) && ! empty($argv[3])) ? trim($argv[3]) : 'commit '.$local.' to '.$master;
