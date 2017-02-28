@@ -20,7 +20,9 @@ Adds all files, commits and pushes to current local_banch. Then checkouts to mer
 # Add aliases
 
 You can edit your ~/.bash_aliases and add aliases like this
+
 alias gac='php /path/to/git-auto-commit.php'
+
 alias gam='php /path/to/git-auto-merge.php'
 
 and instead of "php git-auto-commit.php" use "gac"
