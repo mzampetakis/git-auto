@@ -23,8 +23,7 @@ You can edit your ~/.bash_aliases and add aliases like this
 alias gac='php /path/to/git-auto-commit.php'
 alias gam='php /path/to/git-auto-merge.php'
 
-and instead of 
+and instead of "php git-auto-commit.php" use "gac"
 
-php git-auto-commit.php use gac
-php git-auto-merge.php use gam
+and instead of "php git-auto-merge.php" use "gam"
 
