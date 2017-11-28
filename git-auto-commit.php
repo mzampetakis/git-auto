@@ -11,7 +11,7 @@ foreach ($all_branches as $k => $branch) {
 
 // Look for user submitted variables
 // 1 = commit mesasge (optional)
-$message = (isset($argv[1]) && ! empty($argv[1])) ? trim($argv[2]) : 'commit '.$local;
+$message = (isset($argv[1]) && ! empty($argv[1])) ? trim($argv[1]) : 'commit '.$local;
 
 
 print '--- Starting to commit `' . $local . '` branch...' . PHP_EOL;
